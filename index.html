@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhavana Jayappa | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/icon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Bhavana<span> Jayappa</span></div>
+      <ul class="nav-links">
+     <!--  <li><a href="#about">About</a></li> -->
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>        
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <!-- LEFT: About -->
+      <div class="hero-text">
+        <h2 class="fade-in">Hi there,</h2>
+        <h1 class="fade-in">I'm <span>Bhavana Jayappa</span></h1>
+        <h2 id="typing"></h2>
+        <p class="about-intro">
+          Passionate about uncovering insights from data and transforming patterns into purposeful outcomes. 
+          I thrive in the data-driven world — building predictive models, analyzing behavioral trends, and 
+          crafting end-to-end machine learning solutions that drive smarter decisions.
+        </p>
+        <div class="hero-buttons">
+          <a href="mailto:bhavanasj.2000@gmail.com" class="btn">Email</a>
+          <a href="https://www.linkedin.com/in/bhavana-jayappa/" class="btn">LinkedIn</a>
+          <a href="assets/resume.pdf" class="btn" target="_blank">View Resume</a>
+        </div>
+      </div>
+      <!-- RIGHT: Profile Image -->
+      <div class="hero-image">
+        <img src="assets/profile.jpeg" alt="Bhavana Jayappa" class="profile-photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section id="experience" class="experience-section">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">          
+          <h3>Graduate Assistant - Data Analyst</h3>
+          <h4>Georgia State University, Atlanta, USA </h4>
+          <div class="timeline-date">Aug 2023 – Dec 2023</div>
+          <p>
+            At Georgia State University, I analyzed over 15,000 student records using Python (Pandas, NumPy) and SQL to extract, clean, and validate institutional data for academic insights. 
+            I built interactive Tableau dashboards to visualize engagement and retention patterns, supporting data-informed decision-making. By applying statistical and machine learning techniques,
+            I identified key behavioral trends driving student success. My work streamlined reporting processes, enhanced data reliability, and contributed to more effective campus-wide strategies for 
+            improving retention and engagement.
+          </p>
+          </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Data Scientist</h3>
+          <h4>Tata Consultancy Services (TCS), Ahmedabad, India</h4>
+          <div class="timeline-date">Oct 2022 – July 2024</div>
+          <p>
+            At Tata Consultancy Services , I began by analyzing large-scale telecom datasets and validating data pipelines to ensure accurate reporting and business insights. 
+            I then transitioned into a hybrid analyst-scientist role, collaborating with research and product teams to extract actionable insights, optimize workflows, and model KPIs. 
+            Eventually, I focused on building scalable ETL pipelines and predictive models using Python, Pandas, PySpark, and TensorFlow, supporting ML experiments and research dashboards. 
+            Our systems handled multi-terabyte telecom datasets monthly while maintaining reproducibility, schema tracking, and data quality across pipelines.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section id="education" class="education-section">
+    <h2 class="section-title">Education</h2>
+    <div class="education-cards">
+      <div class="edu-card">
+        <h3>Master's in Data Science and Analytics</h3>
+        <h4>Georgia State University | Atlanta, GA</h4>
+        <span class="edu-duration">2024 – 2026 | GPA: 4.0</span>
+        <p><strong>Relevant Coursework:</strong> Machine Learning, Deep Learning, Advanced Data Mining, Big Data Analytics</p>
+      </div>
+      <div class="edu-card">
+        <h3>Bachelor's in Electronics & Communication Engineering</h3>
+        <h4>Dr. Ambedkar Institute of Technology | Bengaluru, India</h4>
+        <span class="edu-duration">2018 – 2022 | GPA: 8.69/10</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" data-category="ml">
+        <img src="assets/ncaa.jpg" alt="NCAA Data Modeling">
+        <div class="project-info">
+          <h3>NCAA Data Modeling</h3>
+          <p>Built ML models to predict team performance trends, leveraging scikit-learn and feature engineering on sports datasets.</p>
+          <a href="https://github.com/Bhavanasj/NCAA-Basketball-Pred" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-card" data-category="ml">
+        <img src="assets/Car.webp" alt="Car Resale Price Prediction">
+        <div class="project-info">
+          <h3>Car Resale Price Prediction</h3>
+          <p>Developed regression models and feature pipelines to forecast used car prices using historical sales data.</p>
+          <a href="https://github.com/Bhavanasj/Car-Resale-Price-Prediction" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-card" data-category="ml">
+        <img src="assets/credit.jpeg" alt="Credit Risk Classification">
+        <div class="project-info">
+          <h3>Credit Risk Classification</h3>
+          <p>Implemented classification models (Random Forest, XGBoost, CatBoost) to predict credit risk with &gt;93% accuracy.</p>
+          <a href="https://github.com/Bhavanasj/Credit-Risk-Classification" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-card" data-category="database">
+        <img src="assets/ems.webp" alt="University Employment Management System">
+        <div class="project-info">
+          <h3>University Employment Management System</h3>
+          <p>Designed and implemented a MySQL-based employee management system for efficient on-campus job tracking.</p>
+          <a href="https://github.com/Bhavanasj/Uni-EMS" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+
+    <!-- Programming -->
+    <div class="skill-card">
+      <i class="fab fa-python skill-icon"></i>
+      <h3>Python</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-database skill-icon"></i>
+      <h3>SQL</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-r-project skill-icon"></i>
+      <h3>R</h3>
+    </div>
+
+    <!-- Data & Cloud -->
+    <div class="skill-card">
+      <i class="fab fa-aws skill-icon"></i>
+      <h3>AWS</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-cloud skill-icon"></i>
+      <h3>GCP</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-fire skill-icon"></i>
+      <h3>Apache Spark</h3>
+    </div>
+
+    <!-- Databases -->
+    <div class="skill-card">
+      <i class="fas fa-database skill-icon"></i>
+      <h3>MySQL</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-database skill-icon"></i>
+      <h3>PostgreSQL</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-database skill-icon"></i>
+      <h3>MongoDB</h3>
+    </div>
+
+    <!-- Visualization -->
+    <div class="skill-card">
+      <i class="fas fa-chart-bar skill-icon"></i>
+      <h3>Tableau</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-chart-pie skill-icon"></i>
+      <h3>Power BI</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-chart-line skill-icon"></i>
+      <h3>Matplotlib</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-chart-area skill-icon"></i>
+      <h3>Seaborn</h3>
+    </div>
+
+    <!-- Advanced Analytics -->
+    <div class="skill-card">
+      <i class="fas fa-robot skill-icon"></i>
+      <h3>Machine Learning</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-brain skill-icon"></i>
+      <h3>Deep Learning</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-project-diagram skill-icon"></i>
+      <h3>ETL Pipelines</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-cogs skill-icon"></i>
+      <h3>CI/CD</h3>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-chart-line skill-icon"></i>
+      <h3>Predictive Modeling</h3>
+    </div>
+
+  </div>
+</section>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.skill-card {
+  background: #f9f9f9;
+  color: #333;
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.skill-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #00bcd4;
+}
+.skill-card h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+</style>
+
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="contact-section">
+  <h2>Get In Touch</h2>
+  <p>My inbox is always open — whether you have a question, want to collaborate, or just say hi, I'll do my best to get back to you!</p>
+  
+  <div class="contact-links">
+    <a href="mailto:bhavanasj.2000@gmail.com" class="contact-btn">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+    <a href="https://www.linkedin.com/in/bhavana-jayappa/" class="contact-btn" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/Bhavanasj" class="contact-btn" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </div>
+</section>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+.contact-section {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #00bcd4;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.contact-btn:hover {
+  background: #0097a7;
+  transform: translateY(-3px);
+}
+
+.contact-btn i {
+  font-size: 1.2rem;
+}
+</style>
+
+  <script src="script.js"></script>
+</body>
+</html>
