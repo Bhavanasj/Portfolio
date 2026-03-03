@@ -1,8 +1,9 @@
 // ---------- TYPEWRITER EFFECT ----------
 const roles = [
-  "Data Scientist",
-  "Data Analyst",
-  "Machine Learning Engineer"
+  "Machine Learning Engineer",
+  "Junior Data Scientist",
+  "AI Engineer", 
+  "Data Analyst"
 ];
 
 let i = 0;
